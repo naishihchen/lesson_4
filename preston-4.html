@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/weatherSites.css" rel="stylesheet">
+        <title>Naomi's Site</title>
+        <meta name="description" content="Website Project for BYUI CIT230 Class">
+        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/Time.js"></script>
+    </head>
+    <body onload="getTime()">
+        <header>
+            <div id="name-and-slogan">
+                <h1>Forecast Friend</h1>
+                <i>In fair or foul weather</i>
+            </div>
+            <img alt="Naomi and Patrick George" src="images/ForecastFriendsLogo.png">
+        </header>
+        <main>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+            <div id="weather-content">
+                <h2>Preston Idaho</h2>
+                <div class="town-options">
+                    <p>Hero w/ weather summary</p>
+                </div>
+                <div class="town-options">
+                    <p>5 day weather forecast</p>
+                </div>
+                <div class="town-options">
+                    <p>Article</p>
+                </div>
+                <div class="town-options">
+                    <p>Contact Information</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>&copy; <span id="year"></span> | Nai Shih Chen | Oregon |&nbsp;<a href="">BYUI Online Learning</a></p>
+            </div>
+            <div>
+                <p>Last Updated: <span id="fullDate"></span></p>
+            </div>
+        </footer>
+    </body>
+</html>
