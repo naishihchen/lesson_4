@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <link href="styles/main.css" rel="stylesheet">
         <link href="styles/weatherSites.css" rel="stylesheet">
         <link href="styles/medium.css" rel="stylesheet">
         <link href="styles/large.css" rel="stylesheet">
@@ -11,6 +10,7 @@
         <meta name="description" content="Website Project for BYUI CIT230 Class">
         <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
         <script type="text/javascript" src="js/Time.js"></script>
+        <script type="text/javascript" src="js/toggleMenuScript.js"></script>
     </head>
     <body onload="getTime()">
         <header>
@@ -21,7 +21,8 @@
             <img alt="Naomi and Patrick George" src="images/ForecastFriendsLogo.png">
         </header>
         <main>
-            <ul id="nav">
+            <ul class="nav">
+                <li><a href="#" onclick="toggleMenu()">&#9776</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="preston-4.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
