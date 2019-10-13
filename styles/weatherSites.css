@@ -67,6 +67,12 @@ h1 {
     display: none;
 }
 
+.nav a:hover {
+	color: black;
+	background-color: #fadadd;
+	font-weight: 700;
+}
+
 .responsive li {
     display: block;
     flex-direction: column;
